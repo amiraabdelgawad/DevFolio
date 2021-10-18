@@ -387,12 +387,10 @@ body{
 }
 /* end arrow up */
 
-
-
 /* start media query */
 @media screen and (min-width : 993px){
     .navbar{
-        background:transparent !important;
+        background-color: rgba(0, 0, 0, 0.9) !important;
     }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {

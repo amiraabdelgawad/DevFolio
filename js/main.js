@@ -1,12 +1,7 @@
 let aboutOffset = $('#about').offset().top;
+
 $(window).scroll(function () {
     let SrcollWindow = $(window).scrollTop();
-    if (SrcollWindow >= 100) {
-        $("nav").css("background-color", "rgba(0, 0, 0, 0.9)");
-    } else {
-        $("nav").css("background-color", "transparent");
-    }
-
     if(SrcollWindow >= aboutOffset){
         $("#btnUp").fadeIn(500);
     }
